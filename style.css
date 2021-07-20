@@ -1,0 +1,842 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Tourney:wght@200;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Text Animasi */
+#animation {
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#flip {
+  height: 52px;
+  overflow: hidden;
+}
+
+#flip > div > div {
+  color: #fff;
+  padding: 4px 12px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background: #005a9b;
+}
+#flip div:first-child div {
+  background: #3f4756;
+}
+#flip div:last-child div {
+  background: #a3abbd;
+}
+
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+/* akhir text animasi */
+
+.logo-head {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: "PT Sans", sans-serif;
+  background-color: white;
+  position: sticky;
+  top: 0;
+}
+
+.logo-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  padding: 10px 10px;
+
+}
+
+.hero {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-image: url(img/calacatta-marble-with-golden-veins-texture-background_13756-56.jpg);
+padding: 0 2vmax;
+background-size: cover;
+}
+
+.hero1 { 
+  max-width: 50%;
+  padding: 5vmax 2vmax;
+  font-family: "Tourney", cursive;
+  margin: 0 5%;
+}
+
+.hero2 {
+  padding: 210px 350px;
+  background-image: url(img/hero1.svg);
+  background-size: contain;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  padding: 0 15vmax;
+}
+
+.logo {
+padding: 0 105px;
+background-image: url(img/Logo.jpg);
+background-size: cover;
+margin-top: 28px;
+margin-bottom: 28px;
+margin-left: 20%;
+}
+
+.headline h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.cta-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+  font-family: "PT Sans", sans-serif;
+}
+
+.belanja-1 a {
+  background-color: #f7f3ee;
+  border: none;
+  color: black;
+  padding: 17px 56px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.belanja:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.cta-2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.belanja-2 a {
+  background-color: #f7f3ee;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 30px 80px;
+  background-image: url(img/tombol-tokopedia.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.belanja-3 a {
+  background-color: #f7f3ee;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  padding: 30px 80px;
+  margin left: 30px;
+  background-image: url(img/tombol-shopee.jpg);
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+
+.space {
+    padding: 30px 20px;
+}
+
+.all-section {
+}
+
+.section-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-image: url(img/calacatta-marble-with-golden-veins-texture-background_13756-56.jpg);
+    margin-top: 5%;
+    background-size: cover;
+    padding: 0 20vmax;
+
+  }
+
+  .shop-image {
+    padding: 13vmax 15vmax;
+    background-image: url(img/shop.svg);
+    background-size: cover;
+    margin
+  }
+
+  .kotak {
+    width: 20%;
+    height: 100%;
+  }
+
+  .shop-text h1 {
+    font-size: 1.7vmax;
+    text-align: start;
+    font-family: "PT Sans", sans-serif;
+    margin-top: 25%;
+    font-style: normal;
+    align-items: center;
+  }
+  
+.section-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 5%;
+    justify-content: center;
+    padding: 0 20vmax;
+  }
+
+  .brand-text h1 {
+    display: flex;
+    font-size: 1.7vmax;
+    text-align: start;
+    font-family: "PT Sans", sans-serif;
+    margin-top: 25%;
+  }
+
+  .brand-image {
+    padding: 13vmax 11vmax;
+    background-image: url(img/brand.svg);
+    background-size: cover;
+    margin-left: 10vmax;
+  }
+
+.section-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 5%;
+    background-image: url(img/calacatta-marble-with-golden-veins-texture-background_13756-56.jpg);
+    background-size: cover;
+    padding: 0 20vmax;
+  }
+
+  .transaksi-text h1 {
+    font-size: 1.7vmax;
+    text-align: start;
+    font-family: "PT Sans", sans-serif;
+    margin-top: 10vmax;
+  }
+
+  .transaksi-image {
+    padding: 13vmax 18vmax;
+    background-size: cover;
+    background-image: url(img/transaksi2.svg);
+    background-position: center;
+    margin-right: 10vmax;
+  }
+
+  .section-4 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 0 20vmax;
+  }
+
+  .delivered-text h1 {
+    font-size: 1.7vmax;
+    text-align: start;
+    font-family: "PT Sans", sans-serif;
+    margin-top: 10vmax;
+  }
+
+  .delivered-image {
+    padding: 13vmax 13vmax;
+    background-image: url(img/Deliver.svg);
+    background-size: cover;
+    margin-left: 10vmax;
+  }
+
+  .reason {
+    margin-top: 5%;
+    background-image: url(img/calacatta-marble-with-golden-veins-texture-background_13756-56.jpg);
+    padding: 0 20vmax;
+  }
+
+.reason-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-family: "PT Sans", sans-serif;
+  background-size: cover;
+  position: fixed;
+}
+
+.reason-text ul {
+font-size: 2vmax;
+}
+
+.reason-text li {
+  font-size: 1.5vmax;
+  padding: 5px 0;
+}
+
+  .testimoni {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: "PT Sans", sans-serif;
+  }
+
+  .testimoni-1 {
+    margin-top: 5%;
+  }
+
+  .testimoni-2 {
+    margin-top: 5%;
+  }
+  .testimoni-tokopedia {
+    background-color: #f7f3ee;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10vmax 15vmax;
+    background-image: url(img/testimoni-tokopedia.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  .testimoni-shopee {
+    background-color: #f7f3ee;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10vmax 15vmax;
+    background-image: url(img/testimoni-shopee.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .testimoni-google {
+    background-color: #f7f3ee;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10vmax 15vmax;
+    background-image: url(img/testimoni-google.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+  .testimoni-ig {
+    background-color: #f7f3ee;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10vmax 15vmax;
+    background-image: url(img/testimoni-instagram.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+.layout {
+  margin-top: 5%;
+  background-image: url(img/img-responsive.jpg);
+  padding: 30vmax 10vmax;
+background-position: center;
+background-size: cover;
+}
+
+
+
+.ending {
+padding: 20px 0;
+}
+  .ending .headline {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-family: "PT Sans", sans-serif;
+    color: rgb(0, 0, 0);
+  }
+
+  .cta-3 .head {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-family: "PT Sans", sans-serif;
+    color: white;
+  }
+
+
+  .footer-0 {
+    background-color: #f7f3ee;
+    border: none;
+    color: black;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+  }
+
+  .space-2 {
+    padding: 15px 50px;
+}
+.space-3 {
+  height: 15px;
+  width: 20px;
+}
+.space-1 {
+  padding: 30px 25px;
+}
+
+.cta-3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.footercta-2  {
+  display: inline-flex;
+}
+
+.footer-1 a {
+  background-color: #f7f3ee;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 30px 70px;
+  background-image: url(img/tombol-tokopedia.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.footer-2 a {
+  background-color: #f7f3ee;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  padding: 30px 70px;
+  margin left: 30px;
+  background-image: url(img/tombol-shopee.jpg);
+  background-position: center;
+  background-size: contain;
+  border-radius: 10px;
+}
+
+.tombol:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.tombol {
+transition: transform .5s;
+}
+
+.footer {
+  padding: 40px 15%;
+  background-color: black;
+}
+
+.footer-footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.logo-white {
+  padding: 25px 100px;
+  background-image: url(img/logo-putih.png);
+  background-size: cover;
+}
+
+.ic {
+  display: inline-flex;
+}
+
+.icon-tokopedia {
+  padding: 10px 17.5px;
+  background-image: url(img/icon-tokped.svg);
+  background-size: cover;
+margin-right: 10px;
+margin-bottom: 15px;
+cursor: pointer;
+}
+.icon-shopee {
+  padding: 10px 17.5px;
+  background-image: url(img/icon-shopee.svg);
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.icon-facebook {
+  padding: 10px 17.5px;
+  background-image: url(img/icon-fb.svg);
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.icon-instagram {
+  padding: 10px 17.5px;
+  background-image: url(img/icon-ig.svg);
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.icon-whatsapp {
+  padding: 10px 17.5px;
+  background-image: url(img/icon-wa.svg);
+  background-size: cover;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.keterangan {
+  color: white;
+  margin-top: 2%;
+  font-family: "PT Sans", sans-serif;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.deskripsi {
+  text-align: center;
+  font-size: 17px;
+}
+.copyright {
+  padding: 8px 8px;
+  background-image: url(img/copyright-regular.svg);
+  background-size: cover;
+  width: 2px;
+  height: 2px;
+  align-content: center;
+  color: white;
+  margin-right: 3px;
+}
+
+.royal {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+}
+
+@media only screen and (max-width: 850px) {
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .hero2 {
+    padding: 13vmax 22vmax;
+  }
+  .title {
+    flex-wrap: wrap;
+  }
+
+  .all-section {
+    padding: 0;
+  }
+
+  .section-1 {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0%;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .section-1 h1 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }  
+
+  .shop-image {
+    margin: 0;
+  }
+  .section-2 {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    padding: 0%;
+    margin: 0;
+  }
+
+  .section-2 h1 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }  
+
+  .brand-image {
+    margin: 0;
+  }
+  .section-3 {
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0%;
+    margin: 0;
+  }
+
+  .section-3 h1 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .transaksi-image {
+    margin: 0;
+  }
+  .section-4 {
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    padding: 0%;
+    margin: 0;
+  }
+
+  .section-4 h1 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }  
+
+  .delivered-image {
+    margin: 0;
+  }
+
+
+  .reason {
+    padding: 5vmax 5vmax;
+  }
+
+  .testimoni {
+    flex-wrap: wrap;
+  }
+
+  .footer-footer {
+    flex-wrap: wrap;
+  }
+
+  .ending .headline {
+    padding: 0 5vmax;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .cta-3 .head {
+    display: none;
+  }
+
+  .footercta-2 {
+justify-content: space-around;
+  }
+
+  .ending {
+    text-align: center;
+  }
+
+  .footer-0 {
+    text-align: center;
+  }
+
+  .cta-3 h2 {
+    display: none;
+  }
+
+  .space-1 {
+padding: 0 1vmax;
+  }
+  .space-2 {
+    display: none;
+  }
+  .space-3 {
+    display: none;
+  }
+
+  .footer-footer {
+    justify-content: center;
+  }
+
+  .ic {
+    margin-top: 10px;
+    padding: 0 5vmax;
+  }
+
+  .icon-tokopedia {
+    padding: 17.5px 17.5px;
+  }
+  .icon-shopee {
+    padding: 10px 17.5px;
+
+  }
+  .icon-facebook {
+    padding: 10px 17.5px;
+
+  }
+  .icon-instagram {
+    padding: 10px 17.5px;
+  }
+  .icon-whatsapp {
+    padding: 10px 17.5px;
+  }
+
+  .keterangan {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 564px) {
+#animation {
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#flip {
+  height: 48px;
+  overflow: hidden;
+}
+
+.first-cta h1 {
+ font-size: 20px;
+}
+
+.first-cta .logo {
+  padding: 3vmax 12vmax;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.cta-1 a {
+  margin-top: 10px;
+  padding: 2vmax 2vmax;
+  font-size: 14px;
+}
+
+
+.cta-2 .space {
+padding: 1vmax 2.5vmax;
+}
+
+.cta-2 a {
+  padding: 4vmax 8vmax;
+}
+
+.all-section h1 {
+font-size: 15px;
+padding: 10px 20px;
+}
+
+
+.testimonial h1 {
+font-size: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.testimoni-tokopedia {
+  padding: 80px 150px;
+  margin: 0;
+}
+.testimoni-shopee {
+  padding: 80px 150px;
+  margin: 0;
+}
+.testimoni-google {
+  padding: 80px 150px;
+  margin: 0;
+}
+.testimoni-ig {
+  padding: 80px 150px;
+  margin: 0;
+}
+
+}
